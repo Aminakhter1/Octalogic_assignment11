@@ -14,7 +14,7 @@ app.use('/api/vehicles', vehicleRoutes);
 app.use('/api/bookings', bookingRoutes);
 
 // Start the server
-const PORT = 5000;
+const PORT = 8080;
 const startServer = async () => {
   try {
     await connectDB();
