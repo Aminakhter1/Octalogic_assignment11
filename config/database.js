@@ -11,7 +11,7 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST || 'sql.freedb.tech', // Default host if not provided
     dialect: 'mysql', 
-    port: process.env.DB_PORT || 3306, // Default MySQL port if not provided
+    port: process.env.DB_PORT || 3307, // Default MySQL port if not provided
     logging: false,
   }
 );
